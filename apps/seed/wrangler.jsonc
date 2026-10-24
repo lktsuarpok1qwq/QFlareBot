@@ -46,6 +46,13 @@
         "P_buckshot_BuckshotRoom",
         "P_buckshot_BuckshotPlayerRegistry"
       ]
+    },
+    {
+      "tag": "p-buckshot-delete-20261024-v1",
+      "deleted_classes": [
+        "P_buckshot_BuckshotRoom",
+        "P_buckshot_BuckshotPlayerRegistry"
+      ]
     }
   ]
 }
