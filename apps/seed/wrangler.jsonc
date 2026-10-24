@@ -39,20 +39,14 @@
   // 关掉它预览地址就是 404，健康检查必然失败、永远切不了流量。
   "preview_urls": true,
 
-  "migrations": [
-    {
-      "tag": "p-buckshot-buckshotroom-p-buckshot-bucks",
-      "new_sqlite_classes": [
-        "P_buckshot_BuckshotRoom",
-        "P_buckshot_BuckshotPlayerRegistry"
-      ]
+  "exports": {
+    "P_buckshot_BuckshotRoom": {
+      "type": "durable-object",
+      "state": "deleted"
     },
-    {
-      "tag": "p-buckshot-delete-20261024-v1",
-      "deleted_classes": [
-        "P_buckshot_BuckshotRoom",
-        "P_buckshot_BuckshotPlayerRegistry"
-      ]
+    "P_buckshot_BuckshotPlayerRegistry": {
+      "type": "durable-object",
+      "state": "deleted"
     }
-  ]
+  }
 }
