@@ -42,11 +42,11 @@
   "exports": {
     "P_buckshot_BuckshotRoom": {
       "type": "durable-object",
-      "state": "deleted"
+      "storage": "sqlite"
     },
     "P_buckshot_BuckshotPlayerRegistry": {
       "type": "durable-object",
-      "state": "deleted"
+      "storage": "sqlite"
     }
   }
 }
