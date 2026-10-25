@@ -40,13 +40,7 @@
   "preview_urls": true,
 
   "exports": {
-    "P_buckshot_BuckshotRoom": {
-      "type": "durable-object",
-      "storage": "sqlite"
-    },
-    "P_buckshot_BuckshotPlayerRegistry": {
-      "type": "durable-object",
-      "storage": "sqlite"
-    }
+    "P_buckshot_BuckshotRoom": { "type": "durable-object", "state": "deleted" },
+    "P_buckshot_BuckshotPlayerRegistry": { "type": "durable-object", "state": "deleted" }
   }
 }
